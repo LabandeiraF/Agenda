@@ -1,0 +1,41 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #151515;
+    text-align: center;
+    display: block;
+  }
+
+h1{
+    font-family: Verdana, Helvetica;
+  color: #566573;
+  font-weight: bold;
+}
+
+input {
+    font-family: Verdana, Helvetica;
+    color: gray;
+  }
+
+ li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+  }
+
+  #lista-contactos{
+    background-color: white;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px darkgray, 
+			0 10px 10px black;
+	overflow: hidden;
+	width: 20rem;
+	max-width: 40rem;
+	min-height: 25rem;
+    margin-left: 30rem;
+}
+  
