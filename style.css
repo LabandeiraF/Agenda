@@ -5,37 +5,58 @@ html{
 }
 
 body {
-    background-color: #151515;
+    background-color: black;
     text-align: center;
     display: block;
   }
 
 h1{
-    font-family: Verdana, Helvetica;
-  color: #566573;
+    font-family: Arial, Helvetica, sans-serif;
+  color: gainsboro;
   font-weight: bold;
 }
 
 input {
-    font-family: Verdana, Helvetica;
-    color: gray;
+  background-color: gainsboro, whitesmoke;
+  border-radius: 1rem;
+	border-radius: 10px;
+  	box-shadow: 0 14px 15px darkgray, 
+			0 5px 5px black;
+
   }
 
  li{
     text-decoration: none;
     color: black;
     list-style: none;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   #lista-contactos{
     background-color: white;
 	border-radius: 10px;
-  	box-shadow: 0 14px 28px darkgray, 
-			0 10px 10px black;
+  	box-shadow: 0 14px 28px darkgray, 0 10px 10px black;
 	overflow: hidden;
 	width: 20rem;
-	max-width: 40rem;
+	
 	min-height: 25rem;
     margin-left: 30rem;
+    margin-top: 4rem;
+}
+
+#agregar{
+  text-transform: uppercase;
+  background-color: white;
+	border-radius: 10px;
+  	box-shadow: 0 14px 15px darkgray, 
+			0 5px 5px black;
+  background-image: linear-gradient(to bottom, rgb(76, 189, 76), whitesmoke);
+  background-image: -webkit-linear-gradient(top, rgb(76, 189, 76) whitesmoke );
 }
   
+button{
+  background-image: linear-gradient(to bottom, rgb(76, 189, 76), whitesmoke);
+  background-image: -webkit-linear-gradient(top, rgb(76, 189, 76) whitesmoke );
+  border-radius: 10px ;
+}
